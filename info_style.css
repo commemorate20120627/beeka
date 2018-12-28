@@ -1,0 +1,170 @@
+.wrap{
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	grid-template-rows: 55px auto;
+}
+.header{
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    background-image: linear-gradient(to top, #0079b4, #33bce1);
+    display: grid;
+    grid-template-columns: 1fr 309px 36px 1fr;
+}
+.beeka_logo{
+    grid-column: 2 / 3;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.member{
+    grid-column: 3 / 4;
+    margin-left: -5px;
+    margin-top: 10px;
+    width: 36px;
+    height: 36px;
+}
+.main{
+    background-color: rgb(243, 240, 240); 
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 54px auto;
+}
+p{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-size: 18px;
+    text-align: left;
+}
+.info_list{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 10px 300px 10px;
+    grid-template-rows: repeat(4 , 90px) auto;
+}
+.info{
+    width: 200px;
+    height: 18px;
+    font-size: 13px;
+}
+.input_box{
+    width: 294px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+.input_box1{
+    width: 294px;
+    height: 30px;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    margin-top: -25px;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+.gender{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    font-size: 13px;
+    color: #6d6d72;
+    margin-top: 10px;
+}
+.gender_box{
+    width: 136px;
+    height: 40px;
+    margin-top: 12px;
+    margin-left:8px;
+    border-radius: 30px;
+    border: width 1px;;
+    background-color: #ffffff;
+    color: #9b9b9b;
+    font-size: 14px;
+    padding: 0;
+    border: solid 1px #e0e0e0;
+}
+.gender_box__choose{
+    width: 136px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left:8px;
+    border-radius: 30px;
+    border: width 1px;;
+    background-color:#49c0f9;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 0;
+    border: solid 1px #e0e0e0;
+}
+.phone_number{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 54px 36px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #6d6d72;
+}
+.Identification_Number{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    margin-top: 12px;
+    font-size: 13px;
+    color: #6d6d72;
+}
+.birthday{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #6d6d72;
+}
+.year{
+    width: 126px;
+    height: 36px;
+    margin-top: 12px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0;
+    border: solid 1px #e0e0e0;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+.month{
+    width: 72px;
+    height: 36px;
+    margin-top: 15px;
+    margin-left: 11px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0;
+    border: solid 1px #e0e0e0; 
+    font-size: 14px;
+    color: #9b9b9b;   
+}
+.day{
+    width: 72px;
+    height: 36px;
+    margin-top: 12px;
+    margin-left: 11px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 0;
+    border: solid 1px #e0e0e0;
+    font-size: 14px;
+    color: #9b9b9b;
+}
+.SelectStyle select{
+    padding-left:2px;
+}
